@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/environment.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,7 +10,7 @@
           1
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/application.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/application.rb": {
         "lines": [
           1,
           null,
@@ -46,7 +46,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/boot.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -54,7 +54,7 @@
           1
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/environments/test.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -122,7 +122,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/initializers/cors.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -142,7 +142,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/initializers/filter_parameter_logging.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -154,7 +154,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/initializers/inflections.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -174,7 +174,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/config/routes.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -199,7 +199,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/app/facades/forecast_facade.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/facades/forecast_facade.rb": {
         "lines": [
           1,
           1,
@@ -211,7 +211,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/spec/poros/forecast_spec.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/poros/forecast_spec.rb": {
         "lines": [
           1,
           null,
@@ -272,7 +272,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/app/poros/forecast.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/poros/forecast.rb": {
         "lines": [
           1,
           1,
@@ -290,7 +290,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/spec/serializers/forecast_serializer_spec.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/serializers/forecast_serializer_spec.rb": {
         "lines": [
           1,
           null,
@@ -373,7 +373,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/app/serializers/forecast_serializer.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/serializers/forecast_serializer.rb": {
         "lines": [
           1,
           1,
@@ -385,7 +385,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/spec/services/forecast_service_spec.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/services/forecast_service_spec.rb": {
         "lines": [
           1,
           null,
@@ -459,7 +459,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/spec/services/geocoding_service_spec.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/services/geocoding_service_spec.rb": {
         "lines": [
           1,
           null,
@@ -479,7 +479,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/app/services/geocoding_service.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/services/geocoding_service.rb": {
         "lines": [
           1,
           1,
@@ -495,7 +495,7 @@
           null
         ]
       },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/whether_sweater_api/app/services/forecast_service.rb": {
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/services/forecast_service.rb": {
         "lines": [
           1,
           1,
@@ -554,6 +554,6 @@
         ]
       }
     },
-    "timestamp": 1705294563
+    "timestamp": 1705295884
   }
 }
