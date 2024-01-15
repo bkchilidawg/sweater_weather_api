@@ -7,6 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Authorization:
+      - Bearer 8RIZ20CDFDYAIR3m-lRLcuH6RbcUY84hTpTJL9HeCeehlssxH8iaflFBIAhC0_9mN8zD_U0oEZp2IjI-n1J-A9VtrXcliUuJTl3JL96xK5G95WAa4TjCXlTlEMmkZXYx
       User-Agent:
       - Faraday v2.9.0
       Accept-Encoding:
@@ -15,46 +17,255 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 400
-      message: Bad Request
+      code: 200
+      message: OK
     headers:
       Connection:
       - keep-alive
-      Content-Length:
-      - '140'
       Content-Type:
       - application/json
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-ckc8k; site=public_api_v3
       Server:
       - envoy
-      X-Routing-Service:
-      - routing-main--useast1-74f644dc4b-h4js2; site=public_api_v3
+      X-Zipkin-Id:
+      - 582c314c3d916dbc
+      Ratelimit-Dailylimit:
+      - '500.0'
       X-B3-Sampled:
       - '0'
-      X-Zipkin-Id:
-      - e0c9e772ed6871fc
+      Ratelimit-Remaining:
+      - '497.0'
+      Ratelimit-Resettime:
+      - '2024-01-16T00:00:00+00:00'
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-172-176-useast1bprod
+      - 10-65-113-124-useast1aprod
       X-Extlb:
-      - 10-65-172-176-useast1bprod
+      - 10-65-113-124-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 15 Jan 2024 17:43:11 GMT
+      - Mon, 15 Jan 2024 18:18:02 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8282-DEN
+      - cache-den8229-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
+      Vary:
+      - Accept-Encoding
       Alt-Svc:
       - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
     body:
-      encoding: UTF-8
-      string: '{"error": {"code": "VALIDATION_ERROR", "description": "Authorization
-        is a required parameter.", "field": "Authorization", "instance": null}}'
-  recorded_at: Mon, 15 Jan 2024 17:43:11 GMT
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "7W0UHp5BKxKQntzIDM-AKA", "alias": "lunar-lounge-oklahoma-city",
+        "name": "Lunar Lounge", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/SLMTt8vkXqPuokJdGNvG7g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/lunar-lounge-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 28, "categories": [{"alias": "lounges", "title": "Lounges"}],
+        "rating": 4.5, "coordinates": {"latitude": 35.4793752, "longitude": -97.5216357},
+        "transactions": [], "location": {"address1": "1114 Classen Dr", "address2":
+        "", "address3": null, "city": "Oklahoma City", "zip_code": "73103", "country":
+        "US", "state": "OK", "display_address": ["1114 Classen Dr", "Oklahoma City,
+        OK 73103"]}, "phone": "", "display_phone": "", "distance": 1233.7161208251875},
+        {"id": "wgbZryt4sP34kFvwi6uA6w", "alias": "the-grove-bar-oklahoma-city-2",
+        "name": "The Grove Bar", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5i8XWDZrJePKWcvghAhoEQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-grove-bar-oklahoma-city-2?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 4, "categories": [{"alias": "bars", "title": "Bars"}], "rating":
+        4.5, "coordinates": {"latitude": 35.47774519079582, "longitude": -97.5182673073733},
+        "transactions": [], "location": {"address1": "1009 N Harvey Ave", "address2":
+        null, "address3": "", "city": "Oklahoma City", "zip_code": "73102", "country":
+        "US", "state": "OK", "display_address": ["1009 N Harvey Ave", "Oklahoma City,
+        OK 73102"]}, "phone": "", "display_phone": "", "distance": 1001.2231204942234},
+        {"id": "sfX-Fv4tl5QD9tvgtpt5Ww", "alias": "the-soundbar-okc-oklahoma-city",
+        "name": "The SoundBar OKC", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tnWbwpDYP-PCSNoUnuXqWw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-soundbar-okc-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 15, "categories": [{"alias": "lounges", "title": "Lounges"},
+        {"alias": "coffee", "title": "Coffee & Tea"}, {"alias": "cocktailbars", "title":
+        "Cocktail Bars"}], "rating": 5.0, "coordinates": {"latitude": 35.47457, "longitude":
+        -97.51383}, "transactions": [], "location": {"address1": "712B N Broadway
+        Ave", "address2": null, "address3": "", "city": "Oklahoma City", "zip_code":
+        "73102", "country": "US", "state": "OK", "display_address": ["712B N Broadway
+        Ave", "Oklahoma City, OK 73102"]}, "phone": "", "display_phone": "", "distance":
+        956.7604303219755}, {"id": "n435HGtzgCJTqfLkKZNHIA", "alias": "sidecar-barley-and-wine-bar-oklahoma-city",
+        "name": "Sidecar Barley & Wine Bar", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/odYghoJFRxxUPpknW8m01g/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sidecar-barley-and-wine-bar-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 117, "categories": [{"alias": "cocktailbars", "title": "Cocktail
+        Bars"}, {"alias": "wine_bars", "title": "Wine Bars"}], "rating": 4.0, "coordinates":
+        {"latitude": 35.4782575787506, "longitude": -97.5135754405133}, "transactions":
+        ["delivery", "pickup"], "price": "$$", "location": {"address1": "1100 N Broadway
+        Ave", "address2": "", "address3": "", "city": "Oklahoma City", "zip_code":
+        "73103", "country": "US", "state": "OK", "display_address": ["1100 N Broadway
+        Ave", "Oklahoma City, OK 73103"]}, "phone": "+14054210203", "display_phone":
+        "(405) 421-0203", "distance": 616.001476400333}, {"id": "UwVnamyod1gocO3xVdD-rw",
+        "alias": "rad-bar-oklahoma-city", "name": "Rad Bar", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/tsgx13OxAP4MoZxs31qikQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/rad-bar-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 13, "categories": [{"alias": "bars", "title": "Bars"}], "rating":
+        4.5, "coordinates": {"latitude": 35.486246210521294, "longitude": -97.53913097083569},
+        "transactions": [], "location": {"address1": "1715 NW 16th St", "address2":
+        "", "address3": null, "city": "Oklahoma City", "zip_code": "73106", "country":
+        "US", "state": "OK", "display_address": ["1715 NW 16th St", "Oklahoma City,
+        OK 73106"]}, "phone": "+14054939365", "display_phone": "(405) 493-9365", "distance":
+        2817.644435129884}, {"id": "kWtVpSKKBmkRYa3fU8Yubw", "alias": "whiskey-chicks-oklahoma-city",
+        "name": "Whiskey Chicks", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/HbBrqry7ewo5EMtk4Wdc8Q/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/whiskey-chicks-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 108, "categories": [{"alias": "sportsbars", "title": "Sports
+        Bars"}, {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "musicvenues",
+        "title": "Music Venues"}], "rating": 4.0, "coordinates": {"latitude": 35.464567,
+        "longitude": -97.509964}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "115 E Reno Ave", "address2": "Ste B", "address3": "", "city":
+        "Oklahoma City", "zip_code": "73104", "country": "US", "state": "OK", "display_address":
+        ["115 E Reno Ave", "Ste B", "Oklahoma City, OK 73104"]}, "phone": "+13103838850",
+        "display_phone": "(310) 383-8850", "distance": 1933.0676769090505}, {"id":
+        "JBeXi2dtF4IkScDblYYaKQ", "alias": "tellers-okc-oklahoma-city", "name": "Tellers
+        - OKC", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YC_kzFzebfic0Glo6YX8ag/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/tellers-okc-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 251, "categories": [{"alias": "italian", "title": "Italian"},
+        {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"}], "rating": 4.0, "coordinates": {"latitude":
+        35.468429, "longitude": -97.516112}, "transactions": ["delivery", "pickup"],
+        "location": {"address1": "120 N Robinson Ave", "address2": null, "address3":
+        "", "city": "Oklahoma City", "zip_code": "73102", "country": "US", "state":
+        "OK", "display_address": ["120 N Robinson Ave", "Oklahoma City, OK 73102"]},
+        "phone": "+14059006789", "display_phone": "(405) 900-6789", "distance": 1649.3568582330906},
+        {"id": "nQs-rvZeyCKsJkhBgDPb7A", "alias": "parlor-oklahoma-city", "name":
+        "Parlor", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8zu_C8QHzgsYzNWFZRbqSQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/parlor-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 203, "categories": [{"alias": "food_court", "title": "Food
+        Court"}, {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "lounges",
+        "title": "Lounges"}], "rating": 4.5, "coordinates": {"latitude": 35.474081,
+        "longitude": -97.511629}, "transactions": ["delivery", "pickup"], "price":
+        "$$", "location": {"address1": "11 NE 6th St", "address2": null, "address3":
+        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
+        "OK", "display_address": ["11 NE 6th St", "Oklahoma City, OK 73104"]}, "phone":
+        "+14052944740", "display_phone": "(405) 294-4740", "distance": 917.2087920311794},
+        {"id": "p4sIrNAQNo8UGBIHkTVjfg", "alias": "the-blok-bar-oklahoma-city-3",
+        "name": "The Blok Bar", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Lw3giKtu2B1nKKbbTPa70Q/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-blok-bar-oklahoma-city-3?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 42, "categories": [{"alias": "bars", "title": "Bars"}, {"alias":
+        "vegan", "title": "Vegan"}], "rating": 4.5, "coordinates": {"latitude": 35.469364,
+        "longitude": -97.510702}, "transactions": [], "location": {"address1": "30
+        NE 2nd St", "address2": "", "address3": null, "city": "Oklahoma City", "zip_code":
+        "73104", "country": "US", "state": "OK", "display_address": ["30 NE 2nd St",
+        "Oklahoma City, OK 73104"]}, "phone": "+14057685140", "display_phone": "(405)
+        768-5140", "distance": 1394.3460994089241}, {"id": "oC0PqdImIExY7qRc7kKZaw",
+        "alias": "jjs-alley-oklahoma-city", "name": "JJ''s Alley", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FnUgBvH3mBqp9k_l1RTKgA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/jjs-alley-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 81, "categories": [{"alias": "divebars", "title": "Dive Bars"},
+        {"alias": "musicvenues", "title": "Music Venues"}], "rating": 4.0, "coordinates":
+        {"latitude": 35.4661, "longitude": -97.50846}, "transactions": [], "price":
+        "$", "location": {"address1": "212 E Sheridan", "address2": "", "address3":
+        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
+        "OK", "display_address": ["212 E Sheridan", "Oklahoma City, OK 73104"]}, "phone":
+        "+14056054543", "display_phone": "(405) 605-4543", "distance": 1764.4838266861589},
+        {"id": "ax2qkQL-5hIuFfxsYz3T7g", "alias": "library-of-distilled-spirits-okc-oklahoma-city",
+        "name": "Library of Distilled Spirits - OKC", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JVGDWNdWenxhxhUHj1Kvcw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/library-of-distilled-spirits-okc-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 50, "categories": [{"alias": "cocktailbars", "title": "Cocktail
+        Bars"}, {"alias": "lounges", "title": "Lounges"}, {"alias": "mexican", "title":
+        "Mexican"}], "rating": 4.0, "coordinates": {"latitude": 35.468429, "longitude":
+        -97.516112}, "transactions": [], "location": {"address1": "120 N Robinson
+        Ave", "address2": null, "address3": "", "city": "Oklahoma City", "zip_code":
+        "73201", "country": "US", "state": "OK", "display_address": ["120 N Robinson
+        Ave", "Oklahoma City, OK 73201"]}, "phone": "+14059006835", "display_phone":
+        "(405) 900-6835", "distance": 1649.3568582330906}, {"id": "RsD3Yu2isbKCMuEhEFCkcQ",
+        "alias": "flamingo-tiki-oklahoma-city", "name": "Flamingo Tiki", "image_url":
+        "https://s3-media3.fl.yelpcdn.com/bphoto/ZcsQGyYcdUcFvwhfsobkPg/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/flamingo-tiki-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 71, "categories": [{"alias": "cocktailbars", "title": "Cocktail
+        Bars"}, {"alias": "tikibars", "title": "Tiki Bars"}], "rating": 4.0, "coordinates":
+        {"latitude": 35.49865175504433, "longitude": -97.52267091938003}, "transactions":
+        [], "price": "$$", "location": {"address1": "605 NW 28th St", "address2":
+        "", "address3": null, "city": "Oklahoma City", "zip_code": "73103", "country":
+        "US", "state": "OK", "display_address": ["605 NW 28th St", "Oklahoma City,
+        OK 73103"]}, "phone": "", "display_phone": "", "distance": 2261.743852346308},
+        {"id": "QPZLWijZmJl5FhtvZytcCw", "alias": "ghst-oklahoma-city", "name": "GHST",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/a68vZshvwI2sEqXpNGdXdA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/ghst-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 19, "categories": [{"alias": "bars", "title": "Bars"}, {"alias":
+        "tradamerican", "title": "American"}, {"alias": "salad", "title": "Salad"}],
+        "rating": 4.0, "coordinates": {"latitude": 35.47545352450112, "longitude":
+        -97.5195647268421}, "transactions": [], "location": {"address1": "805 N Hudson
+        Ave", "address2": "", "address3": null, "city": "Oklahoma City", "zip_code":
+        "73102", "country": "US", "state": "OK", "display_address": ["805 N Hudson
+        Ave", "Oklahoma City, OK 73102"]}, "phone": "+14054939560", "display_phone":
+        "(405) 493-9560", "distance": 1235.3712899911413}, {"id": "tJAdzyLKfkc6v2pOX3pjBQ",
+        "alias": "sideline-bar-and-grill-plaza-district-oklahoma-city", "name": "Sideline
+        Bar & Grill - Plaza District", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HeHHWCsOfwtkWUSIFpGrKA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/sideline-bar-and-grill-plaza-district-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 10, "categories": [{"alias": "sportsbars", "title": "Sports
+        Bars"}], "rating": 4.0, "coordinates": {"latitude": 35.485694, "longitude":
+        -97.538563}, "transactions": [], "location": {"address1": "1630 N Blackwelder
+        Ave", "address2": null, "address3": "", "city": "Oklahoma City", "zip_code":
+        "73106", "country": "US", "state": "OK", "display_address": ["1630 N Blackwelder
+        Ave", "Oklahoma City, OK 73106"]}, "phone": "+14056050343", "display_phone":
+        "(405) 605-0343", "distance": 2764.618977283648}, {"id": "n8r7H1iaUcIcGFCTyDckMA",
+        "alias": "the-side-chick-oklahoma-city", "name": "The Side Chick", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/nQnIahklrp1_2-fApd9soA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/the-side-chick-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 12, "categories": [{"alias": "bars", "title": "Bars"}, {"alias":
+        "chicken_wings", "title": "Chicken Wings"}, {"alias": "tradamerican", "title":
+        "American"}], "rating": 4.0, "coordinates": {"latitude": 35.46559854148186,
+        "longitude": -97.509753}, "transactions": [], "price": "$$", "location": {"address1":
+        "111 E California Ave", "address2": null, "address3": "", "city": "Oklahoma
+        City", "zip_code": "73104", "country": "US", "state": "OK", "display_address":
+        ["111 E California Ave", "Oklahoma City, OK 73104"]}, "phone": "+14059251393",
+        "display_phone": "(405) 925-1393", "distance": 1818.3602349823484}, {"id":
+        "rC8sAZ_fYaahUNIH56-0zg", "alias": "club-one15-oklahoma-city-3", "name": "Club
+        One15", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/osDdjaJ56RB6C_wEokCHKQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/club-one15-oklahoma-city-3?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 51, "categories": [{"alias": "danceclubs", "title": "Dance
+        Clubs"}, {"alias": "bars", "title": "Bars"}], "rating": 3.5, "coordinates":
+        {"latitude": 35.4667434692383, "longitude": -97.5099945068359}, "transactions":
+        [], "price": "$$", "location": {"address1": "115 E Sheridan Ave", "address2":
+        "", "address3": "", "city": "Oklahoma City", "zip_code": "73104", "country":
+        "US", "state": "OK", "display_address": ["115 E Sheridan Ave", "Oklahoma City,
+        OK 73104"]}, "phone": "+14056378780", "display_phone": "(405) 637-8780", "distance":
+        1688.269661985662}, {"id": "9rxG4Rdw8xsoDwbQiMgwQQ", "alias": "the-tipsy-tiki-dockside-bar-oklahoma-city",
+        "name": "The Tipsy Tiki Dockside Bar", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DQhUl3g5npfuiNf4ko9brg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-tipsy-tiki-dockside-bar-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 46, "categories": [{"alias": "cocktailbars", "title": "Cocktail
+        Bars"}, {"alias": "tikibars", "title": "Tiki Bars"}], "rating": 3.5, "coordinates":
+        {"latitude": 35.4654312685475, "longitude": -97.5103469169126}, "transactions":
+        [], "location": {"address1": "105 E California Ave", "address2": "", "address3":
+        null, "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
+        "OK", "display_address": ["105 E California Ave", "Oklahoma City, OK 73104"]},
+        "phone": "", "display_phone": "", "distance": 1841.1092830671496}, {"id":
+        "_jvOWYj3ID32_BoEGKkN_A", "alias": "coyote-ugly-oklahoma-city", "name": "Coyote
+        Ugly", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/W4C5guckEiI0w_7iPxk6MA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/coyote-ugly-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 54, "categories": [{"alias": "bars", "title": "Bars"}], "rating":
+        2.5, "coordinates": {"latitude": 35.4654265, "longitude": -97.5113313}, "transactions":
+        [], "price": "$$", "location": {"address1": "121 E California Ave", "address2":
+        null, "address3": null, "city": "Oklahoma City", "zip_code": "73104", "country":
+        "US", "state": "OK", "display_address": ["121 E California Ave", "Oklahoma
+        City, OK 73104"]}, "phone": "+14056028459", "display_phone": "(405) 602-8459",
+        "distance": 1851.9966433405573}, {"id": "B_BHnErk-gI-K9QQJs2mig", "alias":
+        "the-daley-oklahoma-city", "name": "The Daley", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/4l0eOR-OYbMCKVSjhb6VnA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-daley-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 9, "categories": [{"alias": "bars", "title": "Bars"}], "rating":
+        4.5, "coordinates": {"latitude": 35.4983637900905, "longitude": -97.5212537124753},
+        "transactions": [], "location": {"address1": "500 Paseo", "address2": "",
+        "address3": null, "city": "Oklahoma City", "zip_code": "73103", "country":
+        "US", "state": "OK", "display_address": ["500 Paseo", "Oklahoma City, OK 73103"]},
+        "phone": "", "display_phone": "", "distance": 2164.223141953181}, {"id": "1lC2xOBQcGDVzur3RyC2xA",
+        "alias": "bunker-club-oklahoma-city-2", "name": "Bunker Club", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/F3-jONG2wbcyELLRwu7wpw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/bunker-club-oklahoma-city-2?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 54, "categories": [{"alias": "divebars", "title": "Dive Bars"}],
+        "rating": 4.5, "coordinates": {"latitude": 35.4934195305342, "longitude":
+        -97.520330697298}, "transactions": [], "price": "$$", "location": {"address1":
+        "433 NW 23rd St", "address2": "", "address3": null, "city": "Oklahoma City",
+        "zip_code": "73103", "country": "US", "state": "OK", "display_address": ["433
+        NW 23rd St", "Oklahoma City, OK 73103"]}, "phone": "+14057028898", "display_phone":
+        "(405) 702-8898", "distance": 1670.024019706571}], "total": 255, "region":
+        {"center": {"longitude": -97.508469, "latitude": 35.481918}}}'
+  recorded_at: Mon, 15 Jan 2024 18:18:02 GMT
 recorded_with: VCR 6.2.0

@@ -51,4 +51,18 @@ class ForecastService
     }
     clean_hash
   end
+
+  def self.get_munchies_forecast(latitude, longitude)
+    response = conn.get("forecast.json?key=#{Rails.application.credentials.weather_api[:key]}&q=#{latitude},#{longitude}&days=5")
+    hash = JSON.parse(response.body, symbolize_names: true)
+    munchies_forecast(hash)
+  end
+
+  def self.munchies_forecast(dirty_hash)
+    current = dirty_hash[:current]
+    clean_hash = {
+        temperature: current[:temp_f],
+        condition: current[:condition][:text],
+      }
+  end
 end
