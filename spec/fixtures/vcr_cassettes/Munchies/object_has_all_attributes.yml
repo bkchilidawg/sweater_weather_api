@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.mapquestapi.com/geocoding/v1/address?key=<MAPQUEST_API_KEY>&location=Oklahoma%20City,%20OK
+    uri: http://www.mapquestapi.com/geocoding/v1/address?key=<MAPQUEST_API_KEY>&location=Oklahoma%20city,%20OK
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Jan 2024 18:17:59 GMT
+      - Mon, 15 Jan 2024 19:56:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,26 +29,26 @@ http_interactions:
       X-Ratelimit-Limit-2628000:
       - '1000000000'
       X-Ratelimit-Remaining-2628000:
-      - '999999958'
+      - '999999926'
       Ratelimit-Limit:
       - '1000000000'
       Ratelimit-Remaining:
-      - '999999958'
+      - '999999926'
       Ratelimit-Reset:
-      - '229321'
+      - '223418'
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - 69b7a090-b3d2-11ee-b75e-59a1c9563f30
+      - 288cb3e0-b3e0-11ee-b75e-59a1c9563f30
       Access-Control-Allow-Origin:
       - "*"
       Etag:
-      - W/"32c-Y26Xet/z+CI2XMFDy/7Cnv3Hcfo"
+      - W/"32c-yVrQewhc6Ffy8E5j/stoGp4VUF4"
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJPa2xhaG9tYSBDaXR5LCBPSyJ9LCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJPa2xhaG9tYSBDaXR5IiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6Ik9rbGFob21hIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJhZG1pbkFyZWEzIjoiT0siLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwiYWRtaW5BcmVhMSI6IlVTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwicG9zdGFsQ29kZSI6IiIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkE1WEFYIiwiZ2VvY29kZVF1YWxpdHkiOiJDSVRZIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTiIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM1LjQ3MjAzLCJsbmciOi05Ny41MjEwN30sImRpc3BsYXlMYXRMbmciOnsibGF0IjozNS40NzIwMywibG5nIjotOTcuNTIxMDd9LCJtYXBVcmwiOiIifV19XX0=
-  recorded_at: Mon, 15 Jan 2024 18:17:59 GMT
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyNCBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDI0IE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJPa2xhaG9tYSBjaXR5LCBPSyJ9LCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJPa2xhaG9tYSBDaXR5IiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6Ik9rbGFob21hIiwiYWRtaW5BcmVhNFR5cGUiOiJDb3VudHkiLCJhZG1pbkFyZWEzIjoiT0siLCJhZG1pbkFyZWEzVHlwZSI6IlN0YXRlIiwiYWRtaW5BcmVhMSI6IlVTIiwiYWRtaW5BcmVhMVR5cGUiOiJDb3VudHJ5IiwicG9zdGFsQ29kZSI6IiIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IkE1WEFYIiwiZ2VvY29kZVF1YWxpdHkiOiJDSVRZIiwiZHJhZ1BvaW50IjpmYWxzZSwic2lkZU9mU3RyZWV0IjoiTiIsImxpbmtJZCI6IjAiLCJ1bmtub3duSW5wdXQiOiIiLCJ0eXBlIjoicyIsImxhdExuZyI6eyJsYXQiOjM1LjQ3MjAzLCJsbmciOi05Ny41MjEwN30sImRpc3BsYXlMYXRMbmciOnsibGF0IjozNS40NzIwMywibG5nIjotOTcuNTIxMDd9LCJtYXBVcmwiOiIifV19XX0=
+  recorded_at: Mon, 15 Jan 2024 19:56:23 GMT
 - request:
     method: get
     uri: https://api.yelp.com/v3/businesses/search?latitude=35.47203&longitude=-97.52107&term=mexican
@@ -73,36 +73,36 @@ http_interactions:
       - keep-alive
       Content-Type:
       - application/json
-      Ratelimit-Dailylimit:
-      - '500.0'
-      X-B3-Sampled:
-      - '0'
       X-Routing-Service:
-      - routing-main--useast1-74f644dc4b-gpbwk; site=public_api_v3
+      - routing-main--useast1-74f644dc4b-psc7k; site=public_api_v3
       Ratelimit-Resettime:
       - '2024-01-16T00:00:00+00:00'
       X-Zipkin-Id:
-      - bddc4b3c37a0d5f2
+      - 1569ca62140e6371
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '500.0'
       Server:
       - envoy
       Ratelimit-Remaining:
-      - '498.0'
+      - '485.0'
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-127-198-useast1aprod
+      - 10-65-79-132-useast1aprod
       X-Extlb:
-      - 10-65-127-198-useast1aprod
+      - 10-65-79-132-useast1aprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 15 Jan 2024 18:18:00 GMT
+      - Mon, 15 Jan 2024 19:56:23 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8260-DEN
+      - cache-den8281-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -163,19 +163,9 @@ http_interactions:
         9th St", "address2": "", "address3": "", "city": "Oklahoma City", "zip_code":
         "73102", "country": "US", "state": "OK", "display_address": ["9 NW 9th St",
         "Oklahoma City, OK 73102"]}, "phone": "+14056067172", "display_phone": "(405)
-        606-7172", "distance": 968.9493382027033}, {"id": "iTqlsLO4BdLya15DI0XgZQ",
-        "alias": "chelys-mexican-grill-oklahoma-city", "name": "Chely''s Mexican Grill",
-        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fS2mgvpkp96-qFqud7M9CA/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/chelys-mexican-grill-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
-        "review_count": 6, "categories": [{"alias": "mexican", "title": "Mexican"}],
-        "rating": 5.0, "coordinates": {"latitude": 35.4686120240271, "longitude":
-        -97.5166564062238}, "transactions": ["delivery"], "location": {"address1":
-        "119 N Robinson Ave", "address2": "", "address3": null, "city": "Oklahoma
-        City", "zip_code": "73102", "country": "US", "state": "OK", "display_address":
-        ["119 N Robinson Ave", "Oklahoma City, OK 73102"]}, "phone": "+14055376638",
-        "display_phone": "(405) 537-6638", "distance": 551.5419917864809}, {"id":
-        "YHdrtKtAGdxSy8lUOamakQ", "alias": "la-cocina-de-do\u00f1a-nena-oklahoma-city-2",
-        "name": "La Cocina De Do\u00f1a Nena", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/OgpVXQ_8MQuNluwJixSKMQ/o.jpg",
+        606-7172", "distance": 968.9493382027033}, {"id": "YHdrtKtAGdxSy8lUOamakQ",
+        "alias": "la-cocina-de-do\u00f1a-nena-oklahoma-city-2", "name": "La Cocina
+        De Do\u00f1a Nena", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/OgpVXQ_8MQuNluwJixSKMQ/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/la-cocina-de-do%C3%B1a-nena-oklahoma-city-2?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
         "review_count": 129, "categories": [{"alias": "mexican", "title": "Mexican"}],
         "rating": 5.0, "coordinates": {"latitude": 35.4272599, "longitude": -97.56517},
@@ -236,21 +226,10 @@ http_interactions:
         "2301 SW 59th St", "address2": "", "address3": "", "city": "Oklahoma City",
         "zip_code": "73119", "country": "US", "state": "OK", "display_address": ["2301
         SW 59th St", "Oklahoma City, OK 73119"]}, "phone": "+14056857773", "display_phone":
-        "(405) 685-7773", "distance": 7832.150911003549}, {"id": "AqIlaiSPpzvQcP5178NW9Q",
-        "alias": "cafe-antigua-oklahoma-city", "name": "Cafe Antigua", "image_url":
-        "https://s3-media2.fl.yelpcdn.com/bphoto/L6LvJS5TX72U_eVy7ungcQ/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/cafe-antigua-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
-        "review_count": 546, "categories": [{"alias": "latin", "title": "Latin American"},
-        {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias": "coffee",
-        "title": "Coffee & Tea"}], "rating": 4.5, "coordinates": {"latitude": 35.488396746382065,
-        "longitude": -97.5315018857672}, "transactions": ["pickup", "delivery"], "price":
-        "$$", "location": {"address1": "1903 N Classen Blvd", "address2": null, "address3":
-        "", "city": "Oklahoma City", "zip_code": "73106", "country": "US", "state":
-        "OK", "display_address": ["1903 N Classen Blvd", "Oklahoma City, OK 73106"]},
-        "phone": "+14056028984", "display_phone": "(405) 602-8984", "distance": 2050.4300312625296},
-        {"id": "KLgcGpnYmNoRLtf5G2qdJA", "alias": "fuzzys-taco-shop-oklahoma-city",
-        "name": "Fuzzy''s Taco Shop", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/shpJTtE90WMuzOcYtYlxyw/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/fuzzys-taco-shop-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "(405) 685-7773", "distance": 7832.150911003549}, {"id": "KLgcGpnYmNoRLtf5G2qdJA",
+        "alias": "fuzzys-taco-shop-oklahoma-city", "name": "Fuzzy''s Taco Shop", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/shpJTtE90WMuzOcYtYlxyw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/fuzzys-taco-shop-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
         "review_count": 372, "categories": [{"alias": "tex-mex", "title": "Tex-Mex"},
         {"alias": "tacos", "title": "Tacos"}], "rating": 4.0, "coordinates": {"latitude":
         35.46388, "longitude": -97.50878}, "transactions": ["delivery"], "price":
@@ -258,19 +237,9 @@ http_interactions:
         "address3": "", "city": "Oklahoma City", "zip_code": "73104", "country": "US",
         "state": "OK", "display_address": ["208 Johnny Bench Dr", "Ste C", "Oklahoma
         City, OK 73104"]}, "phone": "+14056023899", "display_phone": "(405) 602-3899",
-        "distance": 1435.283223083054}, {"id": "nQs-rvZeyCKsJkhBgDPb7A", "alias":
-        "parlor-oklahoma-city", "name": "Parlor", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8zu_C8QHzgsYzNWFZRbqSQ/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/parlor-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
-        "review_count": 203, "categories": [{"alias": "food_court", "title": "Food
-        Court"}, {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "lounges",
-        "title": "Lounges"}], "rating": 4.5, "coordinates": {"latitude": 35.474081,
-        "longitude": -97.511629}, "transactions": ["pickup", "delivery"], "price":
-        "$$", "location": {"address1": "11 NE 6th St", "address2": null, "address3":
-        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
-        "OK", "display_address": ["11 NE 6th St", "Oklahoma City, OK 73104"]}, "phone":
-        "+14052944740", "display_phone": "(405) 294-4740", "distance": 884.832718159411},
-        {"id": "LhLWAKjtc6OvZay5hwq1tw", "alias": "chelinos-mexican-restaurant-oklahoma-city-7",
-        "name": "Chelinos Mexican Restaurant", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2g8ZeN0O3SWkD5PK6PLJJA/o.jpg",
+        "distance": 1435.283223083054}, {"id": "LhLWAKjtc6OvZay5hwq1tw", "alias":
+        "chelinos-mexican-restaurant-oklahoma-city-7", "name": "Chelinos Mexican Restaurant",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2g8ZeN0O3SWkD5PK6PLJJA/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/chelinos-mexican-restaurant-oklahoma-city-7?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
         "review_count": 34, "categories": [{"alias": "mexican", "title": "Mexican"}],
         "rating": 4.5, "coordinates": {"latitude": 35.422866, "longitude": -97.516448},
@@ -279,6 +248,16 @@ http_interactions:
         City", "zip_code": "73109", "country": "US", "state": "OK", "display_address":
         ["4221 S Robinson Ave", "Oklahoma City, OK 73109"]}, "phone": "+14056361548",
         "display_phone": "(405) 636-1548", "distance": 5479.6074531915665}, {"id":
+        "iTqlsLO4BdLya15DI0XgZQ", "alias": "chelys-mexican-grill-oklahoma-city", "name":
+        "Chely''s Mexican Grill", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fS2mgvpkp96-qFqud7M9CA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/chelys-mexican-grill-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 6, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 5.0, "coordinates": {"latitude": 35.4686120240271, "longitude":
+        -97.5166564062238}, "transactions": ["delivery"], "location": {"address1":
+        "119 N Robinson Ave", "address2": "", "address3": null, "city": "Oklahoma
+        City", "zip_code": "73102", "country": "US", "state": "OK", "display_address":
+        ["119 N Robinson Ave", "Oklahoma City, OK 73102"]}, "phone": "+14055376638",
+        "display_phone": "(405) 537-6638", "distance": 551.5419917864809}, {"id":
         "EmA2BhqB2kY8QynKWNi6ww", "alias": "hacienda-tacos-oklahoma-city-2", "name":
         "Hacienda Tacos", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/loAxeQjk4VaNnDXdaopRpA/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/hacienda-tacos-oklahoma-city-2?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
@@ -311,7 +290,17 @@ http_interactions:
         {"address1": "308 NW 10th St", "address2": null, "address3": "", "city": "Oklahoma
         City", "zip_code": "73103", "country": "US", "state": "OK", "display_address":
         ["308 NW 10th St", "Oklahoma City, OK 73103"]}, "phone": "+14057247680", "display_phone":
-        "(405) 724-7680", "distance": 705.393753627825}, {"id": "gDg3YT5G-GjDZZDoPEnKQg",
+        "(405) 724-7680", "distance": 705.393753627825}, {"id": "0BJcPylqYO54HzZPciyXDA",
+        "alias": "la-tapatia-mexican-grill-warr-acres", "name": "La Tapatia Mexican
+        Grill", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/qdgTyGhPyoY-mL48dN6CAQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/la-tapatia-mexican-grill-warr-acres?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 50, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 4.5, "coordinates": {"latitude": 35.509677, "longitude": -97.619014},
+        "transactions": ["pickup", "delivery"], "location": {"address1": "3923 N MacArthur
+        Blvd", "address2": null, "address3": "", "city": "Warr Acres", "zip_code":
+        "73122", "country": "US", "state": "OK", "display_address": ["3923 N MacArthur
+        Blvd", "Warr Acres, OK 73122"]}, "phone": "+14057306468", "display_phone":
+        "(405) 730-6468", "distance": 9805.874376179658}, {"id": "gDg3YT5G-GjDZZDoPEnKQg",
         "alias": "restaurante-los-artesanos-oklahoma-city", "name": "Restaurante Los
         Artesanos", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/vkME5L-l5mtcNTnkbS5-rg/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/restaurante-los-artesanos-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
@@ -321,9 +310,19 @@ http_interactions:
         "2701 S Walker Ave", "address2": "", "address3": null, "city": "Oklahoma City",
         "zip_code": "73109", "country": "US", "state": "OK", "display_address": ["2701
         S Walker Ave", "Oklahoma City, OK 73109"]}, "phone": "+14056359550", "display_phone":
-        "(405) 635-9550", "distance": 3764.45871621294}], "total": 315, "region":
+        "(405) 635-9550", "distance": 3764.45871621294}, {"id": "ngi_lx1Mk7qe09hJ4JXrMg",
+        "alias": "abels-mexican-restaurant-warr-acres", "name": "Abel''s Mexican Restaurant",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/91lhrZqBG9a4ewrnEiINXg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/abels-mexican-restaurant-warr-acres?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 244, "categories": [{"alias": "mexican", "title": "Mexican"}],
+        "rating": 4.0, "coordinates": {"latitude": 35.5217699, "longitude": -97.6175},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "5822 NW 50th St", "address2": null, "address3": null, "city": "Warr Acres",
+        "zip_code": "73122", "country": "US", "state": "OK", "display_address": ["5822
+        NW 50th St", "Warr Acres, OK 73122"]}, "phone": "+14054910911", "display_phone":
+        "(405) 491-0911", "distance": 10303.861682920042}], "total": 315, "region":
         {"center": {"longitude": -97.52107, "latitude": 35.47203}}}'
-  recorded_at: Mon, 15 Jan 2024 18:17:59 GMT
+  recorded_at: Mon, 15 Jan 2024 19:56:23 GMT
 - request:
     method: get
     uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=<WEATHER_API_KEY>&q=35.47203,-97.52107
@@ -343,7 +342,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 15 Jan 2024 18:18:00 GMT
+      - Mon, 15 Jan 2024 19:56:24 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -353,7 +352,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1067
+      - BunnyCDN-IL1-1070
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -367,9 +366,9 @@ http_interactions:
       Via:
       - 1.1 varnish (Varnish/6.0)
       X-Weatherapi-Qpm-Left:
-      - '4999990'
+      - '4999984'
       X-Varnish:
-      - '988185229'
+      - '390762299'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -377,21 +376,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 01/15/2024 18:18:00
+      - 01/15/2024 19:56:22
       Cdn-Edgestorageid:
       - '1067'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 4a740a9b96421eb6cb0afc9c9def2dc4
+      - cd8e87e5214cdb6bb657b74f612409d4
       Cdn-Cache:
-      - MISS
+      - HIT
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Oklahoma City","region":"Oklahoma","country":"United
-        States of America","lat":35.47,"lon":-97.52,"tz_id":"America/Chicago","localtime_epoch":1705342641,"localtime":"2024-01-15
-        12:17"},"current":{"last_updated_epoch":1705342500,"last_updated":"2024-01-15
-        12:15","temp_f":12.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":15.0,"wind_degree":10,"wind_dir":"N","pressure_mb":1027.0,"precip_mm":0.0,"humidity":52,"cloud":25,"feelslike_f":-3.0,"vis_miles":9.0,"uv":2.0,"gust_mph":19.5},"forecast":{"forecastday":[{"date":"2024-01-15","date_epoch":1705276800,"day":{"maxtemp_f":13.2,"mintemp_f":1.8,"avgtemp_f":6.7,"maxwind_mph":16.6,"totalprecip_mm":0.04,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":78,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"uv":3.0},"astro":{"sunrise":"07:39
+        States of America","lat":35.47,"lon":-97.52,"tz_id":"America/Chicago","localtime_epoch":1705348544,"localtime":"2024-01-15
+        13:55"},"current":{"last_updated_epoch":1705347900,"last_updated":"2024-01-15
+        13:45","temp_f":12.9,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":16.1,"wind_degree":20,"wind_dir":"NNE","pressure_mb":1026.0,"precip_mm":0.0,"humidity":50,"cloud":25,"feelslike_f":-2.5,"vis_miles":9.0,"uv":2.0,"gust_mph":16.5},"forecast":{"forecastday":[{"date":"2024-01-15","date_epoch":1705276800,"day":{"maxtemp_f":12.7,"mintemp_f":0.8,"avgtemp_f":6.2,"maxwind_mph":17.0,"totalprecip_mm":0.01,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":77,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"uv":3.0},"astro":{"sunrise":"07:39
         AM","sunset":"05:41 PM","is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1705298400,"time":"2024-01-15
         00:00","temp_f":2.4,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":8.7,"wind_degree":30,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":91,"cloud":52,"feelslike_f":-11.9,"windchill_f":-11.9,"heatindex_f":2.4,"dewpoint_f":0.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":12.7,"uv":1.0},{"time_epoch":1705302000,"time":"2024-01-15
         01:00","temp_f":2.1,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":8.5,"wind_degree":31,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":91,"cloud":62,"feelslike_f":-12.0,"windchill_f":-12.0,"heatindex_f":2.1,"dewpoint_f":-0.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":12.1,"uv":1.0},{"time_epoch":1705305600,"time":"2024-01-15
@@ -405,8 +404,8 @@ http_interactions:
         09:00","temp_f":1.7,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":9.6,"wind_degree":23,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":80,"cloud":15,"feelslike_f":-14.0,"windchill_f":-14.0,"heatindex_f":1.7,"dewpoint_f":-3.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":13.0,"uv":2.0},{"time_epoch":1705334400,"time":"2024-01-15
         10:00","temp_f":3.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":10.7,"wind_degree":26,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":76,"cloud":15,"feelslike_f":-12.7,"windchill_f":-12.7,"heatindex_f":3.1,"dewpoint_f":-3.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":13.7,"uv":2.0},{"time_epoch":1705338000,"time":"2024-01-15
         11:00","temp_f":5.1,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":11.4,"wind_degree":21,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":70,"cloud":11,"feelslike_f":-11.0,"windchill_f":-11.0,"heatindex_f":5.1,"dewpoint_f":-3.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":13.4,"uv":2.0},{"time_epoch":1705341600,"time":"2024-01-15
-        12:00","temp_f":12.0,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":15.0,"wind_degree":10,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":52,"cloud":25,"feelslike_f":-9.1,"windchill_f":-9.1,"heatindex_f":7.2,"dewpoint_f":-1.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":9.0,"gust_mph":19.5,"uv":2.0},{"time_epoch":1705345200,"time":"2024-01-15
-        13:00","temp_f":9.1,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":14.3,"wind_degree":15,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":60,"feelslike_f":-7.0,"windchill_f":-7.0,"heatindex_f":9.1,"dewpoint_f":-0.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":16.5,"uv":2.0},{"time_epoch":1705348800,"time":"2024-01-15
+        12:00","temp_f":7.2,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":13.0,"wind_degree":16,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":66,"cloud":13,"feelslike_f":-9.1,"windchill_f":-9.1,"heatindex_f":7.2,"dewpoint_f":-1.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":14.9,"uv":2.0},{"time_epoch":1705345200,"time":"2024-01-15
+        13:00","temp_f":12.9,"is_day":1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":16.1,"wind_degree":20,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":50,"cloud":25,"feelslike_f":-7.0,"windchill_f":-7.0,"heatindex_f":9.1,"dewpoint_f":-0.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":9.0,"gust_mph":16.5,"uv":2.0},{"time_epoch":1705348800,"time":"2024-01-15
         14:00","temp_f":10.6,"is_day":1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"wind_mph":14.3,"wind_degree":13,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":85,"feelslike_f":-5.6,"windchill_f":-5.6,"heatindex_f":10.6,"dewpoint_f":0.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":16.5,"uv":1.0},{"time_epoch":1705352400,"time":"2024-01-15
         15:00","temp_f":11.5,"is_day":1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"wind_mph":15.2,"wind_degree":10,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":85,"feelslike_f":-4.9,"windchill_f":-4.9,"heatindex_f":11.5,"dewpoint_f":1.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":17.5,"uv":1.0},{"time_epoch":1705356000,"time":"2024-01-15
         16:00","temp_f":12.1,"is_day":1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png","code":1006},"wind_mph":16.8,"wind_degree":6,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":81,"feelslike_f":-4.5,"windchill_f":-4.5,"heatindex_f":12.1,"dewpoint_f":2.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":19.5,"uv":1.0},{"time_epoch":1705359600,"time":"2024-01-15
@@ -416,7 +415,7 @@ http_interactions:
         20:00","temp_f":10.5,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":14.5,"wind_degree":2,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":79,"cloud":65,"feelslike_f":-6.1,"windchill_f":-6.1,"heatindex_f":10.5,"dewpoint_f":5.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":20.8,"uv":1.0},{"time_epoch":1705374000,"time":"2024-01-15
         21:00","temp_f":9.8,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":15.4,"wind_degree":2,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":79,"cloud":68,"feelslike_f":-6.8,"windchill_f":-6.8,"heatindex_f":9.8,"dewpoint_f":5.0,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":21.8,"uv":1.0},{"time_epoch":1705377600,"time":"2024-01-15
         22:00","temp_f":9.1,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":14.5,"wind_degree":1,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":81,"cloud":61,"feelslike_f":-7.3,"windchill_f":-7.3,"heatindex_f":9.1,"dewpoint_f":4.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":21.0,"uv":1.0},{"time_epoch":1705381200,"time":"2024-01-15
-        23:00","temp_f":8.7,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":13.4,"wind_degree":359,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":84,"cloud":70,"feelslike_f":-7.5,"windchill_f":-7.5,"heatindex_f":8.7,"dewpoint_f":4.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":19.5,"uv":1.0}]},{"date":"2024-01-16","date_epoch":1705363200,"day":{"maxtemp_f":25.2,"mintemp_f":5.0,"avgtemp_f":13.7,"maxwind_mph":11.9,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":69,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":3.0},"astro":{"sunrise":"07:39
+        23:00","temp_f":8.7,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":13.4,"wind_degree":359,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":84,"cloud":70,"feelslike_f":-7.5,"windchill_f":-7.5,"heatindex_f":8.7,"dewpoint_f":4.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":19.5,"uv":1.0}]},{"date":"2024-01-16","date_epoch":1705363200,"day":{"maxtemp_f":24.7,"mintemp_f":4.7,"avgtemp_f":13.2,"maxwind_mph":13.0,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":67,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":3.0},"astro":{"sunrise":"07:39
         AM","sunset":"05:42 PM","is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1705384800,"time":"2024-01-16
         00:00","temp_f":8.5,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":13.0,"wind_degree":357,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":85,"cloud":71,"feelslike_f":-7.6,"windchill_f":-7.6,"heatindex_f":8.5,"dewpoint_f":4.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":18.7,"uv":1.0},{"time_epoch":1705388400,"time":"2024-01-16
         01:00","temp_f":8.2,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":12.8,"wind_degree":354,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":87,"cloud":69,"feelslike_f":-7.5,"windchill_f":-7.5,"heatindex_f":8.2,"dewpoint_f":5.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":18.7,"uv":1.0},{"time_epoch":1705392000,"time":"2024-01-16
@@ -441,7 +440,7 @@ http_interactions:
         20:00","temp_f":17.9,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":8.5,"wind_degree":184,"wind_dir":"S","precip_mm":0.0,"snow_cm":0.0,"humidity":60,"cloud":1,"feelslike_f":7.4,"windchill_f":7.4,"heatindex_f":17.9,"dewpoint_f":5.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":17.9,"uv":1.0},{"time_epoch":1705460400,"time":"2024-01-16
         21:00","temp_f":17.7,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":8.9,"wind_degree":195,"wind_dir":"SSW","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":3,"feelslike_f":6.4,"windchill_f":6.4,"heatindex_f":17.7,"dewpoint_f":6.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":18.8,"uv":1.0},{"time_epoch":1705464000,"time":"2024-01-16
         22:00","temp_f":17.7,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.5,"wind_degree":202,"wind_dir":"SSW","precip_mm":0.0,"snow_cm":0.0,"humidity":64,"cloud":2,"feelslike_f":6.0,"windchill_f":6.0,"heatindex_f":17.7,"dewpoint_f":7.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.1,"uv":1.0},{"time_epoch":1705467600,"time":"2024-01-16
-        23:00","temp_f":17.8,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.7,"wind_degree":202,"wind_dir":"SSW","precip_mm":0.0,"snow_cm":0.0,"humidity":64,"cloud":0,"feelslike_f":5.7,"windchill_f":5.7,"heatindex_f":17.7,"dewpoint_f":7.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.5,"uv":1.0}]},{"date":"2024-01-17","date_epoch":1705449600,"day":{"maxtemp_f":42.8,"mintemp_f":18.2,"avgtemp_f":28.6,"maxwind_mph":20.6,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":58,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":3.0},"astro":{"sunrise":"07:38
+        23:00","temp_f":17.8,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.7,"wind_degree":202,"wind_dir":"SSW","precip_mm":0.0,"snow_cm":0.0,"humidity":64,"cloud":0,"feelslike_f":5.7,"windchill_f":5.7,"heatindex_f":17.7,"dewpoint_f":7.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.5,"uv":1.0}]},{"date":"2024-01-17","date_epoch":1705449600,"day":{"maxtemp_f":42.3,"mintemp_f":17.8,"avgtemp_f":28.2,"maxwind_mph":20.1,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":57,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":3.0},"astro":{"sunrise":"07:38
         AM","sunset":"05:43 PM","is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1705471200,"time":"2024-01-17
         00:00","temp_f":17.8,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.0,"wind_degree":201,"wind_dir":"SSW","precip_mm":0.0,"snow_cm":0.0,"humidity":64,"cloud":0,"feelslike_f":5.4,"windchill_f":5.4,"heatindex_f":17.8,"dewpoint_f":7.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":23.0,"uv":1.0},{"time_epoch":1705474800,"time":"2024-01-17
         01:00","temp_f":18.1,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.9,"wind_degree":200,"wind_dir":"SSW","precip_mm":0.0,"snow_cm":0.0,"humidity":64,"cloud":0,"feelslike_f":5.2,"windchill_f":5.2,"heatindex_f":18.1,"dewpoint_f":7.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":24.9,"uv":1.0},{"time_epoch":1705478400,"time":"2024-01-17
@@ -466,7 +465,7 @@ http_interactions:
         20:00","temp_f":33.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.9,"wind_degree":146,"wind_dir":"SSE","precip_mm":0.0,"snow_cm":0.0,"humidity":65,"cloud":0,"feelslike_f":23.2,"windchill_f":23.2,"heatindex_f":33.0,"dewpoint_f":21.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":24.9,"uv":1.0},{"time_epoch":1705546800,"time":"2024-01-17
         21:00","temp_f":31.8,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":15.0,"wind_degree":144,"wind_dir":"SE","precip_mm":0.0,"snow_cm":0.0,"humidity":61,"cloud":0,"feelslike_f":21.9,"windchill_f":21.9,"heatindex_f":31.8,"dewpoint_f":19.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":29.0,"uv":1.0},{"time_epoch":1705550400,"time":"2024-01-17
         22:00","temp_f":31.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":13.4,"wind_degree":141,"wind_dir":"SE","precip_mm":0.0,"snow_cm":0.0,"humidity":61,"cloud":2,"feelslike_f":21.2,"windchill_f":21.2,"heatindex_f":31.0,"dewpoint_f":18.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":25.6,"uv":1.0},{"time_epoch":1705554000,"time":"2024-01-17
-        23:00","temp_f":30.3,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.6,"wind_degree":130,"wind_dir":"SE","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":7,"feelslike_f":20.8,"windchill_f":20.8,"heatindex_f":30.3,"dewpoint_f":19.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.0,"uv":1.0}]},{"date":"2024-01-18","date_epoch":1705536000,"day":{"maxtemp_f":34.2,"mintemp_f":21.5,"avgtemp_f":29.4,"maxwind_mph":20.6,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":73,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"uv":3.0},"astro":{"sunrise":"07:38
+        23:00","temp_f":30.3,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":11.6,"wind_degree":130,"wind_dir":"SE","precip_mm":0.0,"snow_cm":0.0,"humidity":63,"cloud":7,"feelslike_f":20.8,"windchill_f":20.8,"heatindex_f":30.3,"dewpoint_f":19.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.0,"uv":1.0}]},{"date":"2024-01-18","date_epoch":1705536000,"day":{"maxtemp_f":32.9,"mintemp_f":20.9,"avgtemp_f":28.8,"maxwind_mph":18.3,"totalprecip_mm":0.04,"totalsnow_cm":0.01,"avgvis_miles":5.0,"avghumidity":75,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":12,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"uv":3.0},"astro":{"sunrise":"07:38
         AM","sunset":"05:43 PM","is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1705557600,"time":"2024-01-18
         00:00","temp_f":30.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.7,"wind_degree":120,"wind_dir":"ESE","precip_mm":0.0,"snow_cm":0.0,"humidity":67,"cloud":8,"feelslike_f":20.6,"windchill_f":20.6,"heatindex_f":30.0,"dewpoint_f":20.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":20.6,"uv":1.0},{"time_epoch":1705561200,"time":"2024-01-18
         01:00","temp_f":29.8,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":10.7,"wind_degree":117,"wind_dir":"ESE","precip_mm":0.0,"snow_cm":0.0,"humidity":70,"cloud":11,"feelslike_f":21.0,"windchill_f":21.0,"heatindex_f":29.8,"dewpoint_f":21.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":19.9,"uv":1.0},{"time_epoch":1705564800,"time":"2024-01-18
@@ -491,7 +490,7 @@ http_interactions:
         20:00","temp_f":26.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":16.6,"wind_degree":21,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":71,"cloud":20,"feelslike_f":13.2,"windchill_f":13.2,"heatindex_f":26.0,"dewpoint_f":18.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":24.5,"uv":1.0},{"time_epoch":1705633200,"time":"2024-01-18
         21:00","temp_f":24.1,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":17.2,"wind_degree":17,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":70,"cloud":7,"feelslike_f":10.8,"windchill_f":10.8,"heatindex_f":24.1,"dewpoint_f":15.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":24.4,"uv":1.0},{"time_epoch":1705636800,"time":"2024-01-18
         22:00","temp_f":22.5,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":16.3,"wind_degree":16,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":72,"cloud":10,"feelslike_f":8.8,"windchill_f":8.8,"heatindex_f":22.5,"dewpoint_f":14.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.5,"uv":1.0},{"time_epoch":1705640400,"time":"2024-01-18
-        23:00","temp_f":21.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":16.6,"wind_degree":12,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":73,"cloud":6,"feelslike_f":7.1,"windchill_f":7.1,"heatindex_f":21.2,"dewpoint_f":13.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.7,"uv":1.0}]},{"date":"2024-01-19","date_epoch":1705622400,"day":{"maxtemp_f":27.4,"mintemp_f":17.0,"avgtemp_f":21.3,"maxwind_mph":16.8,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":53,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":2.0},"astro":{"sunrise":"07:38
+        23:00","temp_f":21.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":16.6,"wind_degree":12,"wind_dir":"NNE","precip_mm":0.0,"snow_cm":0.0,"humidity":73,"cloud":6,"feelslike_f":7.1,"windchill_f":7.1,"heatindex_f":21.2,"dewpoint_f":13.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.7,"uv":1.0}]},{"date":"2024-01-19","date_epoch":1705622400,"day":{"maxtemp_f":26.9,"mintemp_f":16.3,"avgtemp_f":20.9,"maxwind_mph":16.6,"totalprecip_mm":0.0,"totalsnow_cm":0.0,"avgvis_miles":6.0,"avghumidity":58,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":2.0},"astro":{"sunrise":"07:38
         AM","sunset":"05:44 PM","is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1705644000,"time":"2024-01-19
         00:00","temp_f":20.2,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":16.6,"wind_degree":9,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":73,"cloud":11,"feelslike_f":5.9,"windchill_f":5.9,"heatindex_f":20.2,"dewpoint_f":12.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":22.5,"uv":1.0},{"time_epoch":1705647600,"time":"2024-01-19
         01:00","temp_f":19.4,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":15.9,"wind_degree":9,"wind_dir":"N","precip_mm":0.0,"snow_cm":0.0,"humidity":73,"cloud":17,"feelslike_f":5.0,"windchill_f":5.0,"heatindex_f":19.4,"dewpoint_f":12.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":21.6,"uv":1.0},{"time_epoch":1705651200,"time":"2024-01-19
@@ -517,5 +516,5 @@ http_interactions:
         21:00","temp_f":22.5,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.5,"wind_degree":50,"wind_dir":"NE","precip_mm":0.0,"snow_cm":0.0,"humidity":52,"cloud":4,"feelslike_f":14.4,"windchill_f":14.4,"heatindex_f":22.5,"dewpoint_f":7.5,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":10.2,"uv":1.0},{"time_epoch":1705723200,"time":"2024-01-19
         22:00","temp_f":21.9,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.8,"wind_degree":60,"wind_dir":"ENE","precip_mm":0.0,"snow_cm":0.0,"humidity":53,"cloud":3,"feelslike_f":14.1,"windchill_f":14.1,"heatindex_f":22.0,"dewpoint_f":7.4,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":9.0,"uv":1.0},{"time_epoch":1705726800,"time":"2024-01-19
         23:00","temp_f":21.5,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.8,"wind_degree":66,"wind_dir":"ENE","precip_mm":0.0,"snow_cm":0.0,"humidity":53,"cloud":2,"feelslike_f":13.5,"windchill_f":13.5,"heatindex_f":21.5,"dewpoint_f":7.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_miles":6.0,"gust_mph":8.8,"uv":1.0}]}]}}'
-  recorded_at: Mon, 15 Jan 2024 18:18:00 GMT
+  recorded_at: Mon, 15 Jan 2024 19:56:24 GMT
 recorded_with: VCR 6.2.0

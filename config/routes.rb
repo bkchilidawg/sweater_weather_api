@@ -11,12 +11,6 @@ Rails.application.routes.draw do
   # config/routes.rb
 
 
-  namespace :api do
-    namespace :v0 do
-      resources :forecast, only: [:show]
-    end
-  end
-  get '/api/v1/munchies', to: 'munchies#show'
-
-
+  get "api/v0/forecast", to: "api/v0/forecast#show"
+  get "api/v1/munchies", to: "api/v1/munchies#show"
 end

@@ -67,4 +67,19 @@ RSpec.describe 'API call' do
       expect(hour[:icon]).to be_a String
     end
   end
+
+  it 'returns a clean forecast hash for munchies' do
+    latitude = 40.7128
+    longitude = -74.0060
+
+    VCR.use_cassette('forecast_service/munchies_forecast') do
+      forecast = ForecastService.get_munchies_forecast(latitude, longitude)
+
+      expect(forecast).to be_a(Hash)
+      expect(forecast).to have_key(:temperature)
+      expect(forecast[:temperature]).to be_a(Float)
+      expect(forecast).to have_key(:condition)
+      expect(forecast[:condition]).to be_a(String)
+    end
+  end
 end

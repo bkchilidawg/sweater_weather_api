@@ -25,35 +25,35 @@ http_interactions:
       Content-Type:
       - application/json
       X-Routing-Service:
-      - routing-main--useast1-74f644dc4b-ckc8k; site=public_api_v3
-      Server:
-      - envoy
-      X-Zipkin-Id:
-      - 582c314c3d916dbc
+      - routing-main--useast1-74f644dc4b-tj4d6; site=public_api_v3
       Ratelimit-Dailylimit:
       - '500.0'
-      X-B3-Sampled:
-      - '0'
+      Server:
+      - envoy
       Ratelimit-Remaining:
-      - '497.0'
+      - '484.0'
+      X-Zipkin-Id:
+      - 014d71208aebc572
       Ratelimit-Resettime:
       - '2024-01-16T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-113-124-useast1aprod
+      - 10-65-166-92-useast1bprod
       X-Extlb:
-      - 10-65-113-124-useast1aprod
+      - 10-65-166-92-useast1bprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Mon, 15 Jan 2024 18:18:02 GMT
+      - Mon, 15 Jan 2024 19:56:26 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-den8229-DEN
+      - cache-den8241-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -84,6 +84,16 @@ http_interactions:
         null, "address3": "", "city": "Oklahoma City", "zip_code": "73102", "country":
         "US", "state": "OK", "display_address": ["1009 N Harvey Ave", "Oklahoma City,
         OK 73102"]}, "phone": "", "display_phone": "", "distance": 1001.2231204942234},
+        {"id": "oC0PqdImIExY7qRc7kKZaw", "alias": "jjs-alley-oklahoma-city", "name":
+        "JJ''s Alley", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FnUgBvH3mBqp9k_l1RTKgA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/jjs-alley-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 81, "categories": [{"alias": "divebars", "title": "Dive Bars"},
+        {"alias": "musicvenues", "title": "Music Venues"}], "rating": 4.0, "coordinates":
+        {"latitude": 35.4661, "longitude": -97.50846}, "transactions": [], "price":
+        "$", "location": {"address1": "212 E Sheridan", "address2": "", "address3":
+        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
+        "OK", "display_address": ["212 E Sheridan", "Oklahoma City, OK 73104"]}, "phone":
+        "+14056054543", "display_phone": "(405) 605-4543", "distance": 1764.4838266861589},
         {"id": "sfX-Fv4tl5QD9tvgtpt5Ww", "alias": "the-soundbar-okc-oklahoma-city",
         "name": "The SoundBar OKC", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tnWbwpDYP-PCSNoUnuXqWw/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/the-soundbar-okc-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
@@ -100,7 +110,7 @@ http_interactions:
         "review_count": 117, "categories": [{"alias": "cocktailbars", "title": "Cocktail
         Bars"}, {"alias": "wine_bars", "title": "Wine Bars"}], "rating": 4.0, "coordinates":
         {"latitude": 35.4782575787506, "longitude": -97.5135754405133}, "transactions":
-        ["delivery", "pickup"], "price": "$$", "location": {"address1": "1100 N Broadway
+        ["pickup", "delivery"], "price": "$$", "location": {"address1": "1100 N Broadway
         Ave", "address2": "", "address3": "", "city": "Oklahoma City", "zip_code":
         "73103", "country": "US", "state": "OK", "display_address": ["1100 N Broadway
         Ave", "Oklahoma City, OK 73103"]}, "phone": "+14054210203", "display_phone":
@@ -130,22 +140,11 @@ http_interactions:
         "review_count": 251, "categories": [{"alias": "italian", "title": "Italian"},
         {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "breakfast_brunch",
         "title": "Breakfast & Brunch"}], "rating": 4.0, "coordinates": {"latitude":
-        35.468429, "longitude": -97.516112}, "transactions": ["delivery", "pickup"],
+        35.468429, "longitude": -97.516112}, "transactions": ["pickup", "delivery"],
         "location": {"address1": "120 N Robinson Ave", "address2": null, "address3":
         "", "city": "Oklahoma City", "zip_code": "73102", "country": "US", "state":
         "OK", "display_address": ["120 N Robinson Ave", "Oklahoma City, OK 73102"]},
         "phone": "+14059006789", "display_phone": "(405) 900-6789", "distance": 1649.3568582330906},
-        {"id": "nQs-rvZeyCKsJkhBgDPb7A", "alias": "parlor-oklahoma-city", "name":
-        "Parlor", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8zu_C8QHzgsYzNWFZRbqSQ/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/parlor-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
-        "review_count": 203, "categories": [{"alias": "food_court", "title": "Food
-        Court"}, {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "lounges",
-        "title": "Lounges"}], "rating": 4.5, "coordinates": {"latitude": 35.474081,
-        "longitude": -97.511629}, "transactions": ["delivery", "pickup"], "price":
-        "$$", "location": {"address1": "11 NE 6th St", "address2": null, "address3":
-        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
-        "OK", "display_address": ["11 NE 6th St", "Oklahoma City, OK 73104"]}, "phone":
-        "+14052944740", "display_phone": "(405) 294-4740", "distance": 917.2087920311794},
         {"id": "p4sIrNAQNo8UGBIHkTVjfg", "alias": "the-blok-bar-oklahoma-city-3",
         "name": "The Blok Bar", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Lw3giKtu2B1nKKbbTPa70Q/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/the-blok-bar-oklahoma-city-3?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
@@ -155,18 +154,9 @@ http_interactions:
         NE 2nd St", "address2": "", "address3": null, "city": "Oklahoma City", "zip_code":
         "73104", "country": "US", "state": "OK", "display_address": ["30 NE 2nd St",
         "Oklahoma City, OK 73104"]}, "phone": "+14057685140", "display_phone": "(405)
-        768-5140", "distance": 1394.3460994089241}, {"id": "oC0PqdImIExY7qRc7kKZaw",
-        "alias": "jjs-alley-oklahoma-city", "name": "JJ''s Alley", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FnUgBvH3mBqp9k_l1RTKgA/o.jpg",
-        "is_closed": false, "url": "https://www.yelp.com/biz/jjs-alley-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
-        "review_count": 81, "categories": [{"alias": "divebars", "title": "Dive Bars"},
-        {"alias": "musicvenues", "title": "Music Venues"}], "rating": 4.0, "coordinates":
-        {"latitude": 35.4661, "longitude": -97.50846}, "transactions": [], "price":
-        "$", "location": {"address1": "212 E Sheridan", "address2": "", "address3":
-        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
-        "OK", "display_address": ["212 E Sheridan", "Oklahoma City, OK 73104"]}, "phone":
-        "+14056054543", "display_phone": "(405) 605-4543", "distance": 1764.4838266861589},
-        {"id": "ax2qkQL-5hIuFfxsYz3T7g", "alias": "library-of-distilled-spirits-okc-oklahoma-city",
-        "name": "Library of Distilled Spirits - OKC", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JVGDWNdWenxhxhUHj1Kvcw/o.jpg",
+        768-5140", "distance": 1394.3460994089241}, {"id": "ax2qkQL-5hIuFfxsYz3T7g",
+        "alias": "library-of-distilled-spirits-okc-oklahoma-city", "name": "Library
+        of Distilled Spirits - OKC", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JVGDWNdWenxhxhUHj1Kvcw/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/library-of-distilled-spirits-okc-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
         "review_count": 50, "categories": [{"alias": "cocktailbars", "title": "Cocktail
         Bars"}, {"alias": "lounges", "title": "Lounges"}, {"alias": "mexican", "title":
@@ -186,6 +176,17 @@ http_interactions:
         "", "address3": null, "city": "Oklahoma City", "zip_code": "73103", "country":
         "US", "state": "OK", "display_address": ["605 NW 28th St", "Oklahoma City,
         OK 73103"]}, "phone": "", "display_phone": "", "distance": 2261.743852346308},
+        {"id": "Zo5GREX3Lf762L5st2HrnQ", "alias": "the-r-and-j-lounge-and-supper-club-oklahoma-city-2",
+        "name": "The R&J Lounge and Supper Club", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/coyihuszc2b0OgnrZ0mYlQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-r-and-j-lounge-and-supper-club-oklahoma-city-2?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 193, "categories": [{"alias": "cocktailbars", "title": "Cocktail
+        Bars"}, {"alias": "tradamerican", "title": "American"}, {"alias": "lounges",
+        "title": "Lounges"}], "rating": 4.0, "coordinates": {"latitude": 35.4779282,
+        "longitude": -97.5186462}, "transactions": ["pickup", "delivery"], "price":
+        "$$", "location": {"address1": "320 NW 10th St", "address2": "", "address3":
+        "", "city": "Oklahoma City", "zip_code": "73103", "country": "US", "state":
+        "OK", "display_address": ["320 NW 10th St", "Oklahoma City, OK 73103"]}, "phone":
+        "+14056025066", "display_phone": "(405) 602-5066", "distance": 1022.2485865803538},
         {"id": "QPZLWijZmJl5FhtvZytcCw", "alias": "ghst-oklahoma-city", "name": "GHST",
         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/a68vZshvwI2sEqXpNGdXdA/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/ghst-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
@@ -218,8 +219,19 @@ http_interactions:
         City", "zip_code": "73104", "country": "US", "state": "OK", "display_address":
         ["111 E California Ave", "Oklahoma City, OK 73104"]}, "phone": "+14059251393",
         "display_phone": "(405) 925-1393", "distance": 1818.3602349823484}, {"id":
-        "rC8sAZ_fYaahUNIH56-0zg", "alias": "club-one15-oklahoma-city-3", "name": "Club
-        One15", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/osDdjaJ56RB6C_wEokCHKQ/o.jpg",
+        "nQs-rvZeyCKsJkhBgDPb7A", "alias": "parlor-oklahoma-city", "name": "Parlor",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8zu_C8QHzgsYzNWFZRbqSQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/parlor-oklahoma-city?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
+        "review_count": 203, "categories": [{"alias": "food_court", "title": "Food
+        Court"}, {"alias": "cocktailbars", "title": "Cocktail Bars"}, {"alias": "lounges",
+        "title": "Lounges"}], "rating": 4.5, "coordinates": {"latitude": 35.474081,
+        "longitude": -97.511629}, "transactions": ["pickup", "delivery"], "price":
+        "$$", "location": {"address1": "11 NE 6th St", "address2": null, "address3":
+        "", "city": "Oklahoma City", "zip_code": "73104", "country": "US", "state":
+        "OK", "display_address": ["11 NE 6th St", "Oklahoma City, OK 73104"]}, "phone":
+        "+14052944740", "display_phone": "(405) 294-4740", "distance": 917.2087920311794},
+        {"id": "rC8sAZ_fYaahUNIH56-0zg", "alias": "club-one15-oklahoma-city-3", "name":
+        "Club One15", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/osDdjaJ56RB6C_wEokCHKQ/o.jpg",
         "is_closed": false, "url": "https://www.yelp.com/biz/club-one15-oklahoma-city-3?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
         "review_count": 51, "categories": [{"alias": "danceclubs", "title": "Dance
         Clubs"}, {"alias": "bars", "title": "Bars"}], "rating": 3.5, "coordinates":
@@ -255,17 +267,7 @@ http_interactions:
         "transactions": [], "location": {"address1": "500 Paseo", "address2": "",
         "address3": null, "city": "Oklahoma City", "zip_code": "73103", "country":
         "US", "state": "OK", "display_address": ["500 Paseo", "Oklahoma City, OK 73103"]},
-        "phone": "", "display_phone": "", "distance": 2164.223141953181}, {"id": "1lC2xOBQcGDVzur3RyC2xA",
-        "alias": "bunker-club-oklahoma-city-2", "name": "Bunker Club", "image_url":
-        "https://s3-media4.fl.yelpcdn.com/bphoto/F3-jONG2wbcyELLRwu7wpw/o.jpg", "is_closed":
-        false, "url": "https://www.yelp.com/biz/bunker-club-oklahoma-city-2?adjust_creative=Zwj_F7rFXsclBGNPn1X2Og&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Zwj_F7rFXsclBGNPn1X2Og",
-        "review_count": 54, "categories": [{"alias": "divebars", "title": "Dive Bars"}],
-        "rating": 4.5, "coordinates": {"latitude": 35.4934195305342, "longitude":
-        -97.520330697298}, "transactions": [], "price": "$$", "location": {"address1":
-        "433 NW 23rd St", "address2": "", "address3": null, "city": "Oklahoma City",
-        "zip_code": "73103", "country": "US", "state": "OK", "display_address": ["433
-        NW 23rd St", "Oklahoma City, OK 73103"]}, "phone": "+14057028898", "display_phone":
-        "(405) 702-8898", "distance": 1670.024019706571}], "total": 255, "region":
-        {"center": {"longitude": -97.508469, "latitude": 35.481918}}}'
-  recorded_at: Mon, 15 Jan 2024 18:18:02 GMT
+        "phone": "", "display_phone": "", "distance": 2164.223141953181}], "total":
+        255, "region": {"center": {"longitude": -97.508469, "latitude": 35.481918}}}'
+  recorded_at: Mon, 15 Jan 2024 19:56:26 GMT
 recorded_with: VCR 6.2.0

@@ -1,11 +1,14 @@
 class Munchies
-  attr_reader :restaurant,
-              :forecast,
-              :location
+  attr_reader :restaurant, :forecast, :destination
+
   def initialize(restaurant_data, forecast_data, location_data)
     @restaurant = restaurant_data
     @forecast = forecast_data
-    @location = location_data_format(location_data)
+    @destination = location_data_format(location_data)
+  end
+
+  def id
+    nil
   end
 
   def location_data_format(location_data)

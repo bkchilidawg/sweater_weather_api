@@ -1,12 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe 'Makes Munchie based on location' do
-  it 'gets a munchies object with  all data for a location given as city,st', :vcr do
+  it 'returns an object with all data for a location', :vcr do
     munchies = MunchiesFacade.get_munchies("Oklahoma City, OK", "mexican")
 
     expect(munchies).to be_a Munchies
 
-    expect(munchies.location).to eq("Oklahoma city,  OK")
+    expect(munchies.destination).to eq("Oklahoma city,  OK")
     expect(munchies.forecast).to be_a Hash
     expect(munchies.forecast.keys).to eq([:temperature, :condition])
     expect(munchies.forecast[:temperature]).to be_a Float

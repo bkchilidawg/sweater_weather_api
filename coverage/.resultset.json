@@ -191,10 +191,67 @@
           null,
           1,
           1,
+          null
+        ]
+      },
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/facades/forecast_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
           1,
           null,
           null,
           1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          8,
+          null,
+          null,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          null,
+          null,
+          1,
+          1,
+          1,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          24,
+          null,
+          null,
           null,
           null,
           null
@@ -320,7 +377,53 @@
       },
       "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/poros/munchies_poro_spec.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/poros/munchies.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
         ]
       },
       "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/spec/serializers/forecast_serializer_spec.rb": {
@@ -494,6 +597,21 @@
           24,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -540,18 +658,68 @@
           null
         ]
       },
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/controllers/api/v1/munchies_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/facades/munchies_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          2,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/services/geocoding_service.rb": {
         "lines": [
           1,
           1,
-          6,
-          6,
-          6,
-          6,
+          8,
+          8,
+          null,
+          8,
+          7,
+          7,
+          null,
+          null,
+          null,
           null,
           null,
           1,
-          6,
+          8,
+          null,
+          null
+        ]
+      },
+      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/serializers/munchies_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
           null,
           null
         ]
@@ -560,7 +728,7 @@
         "lines": [
           1,
           1,
-          5,
+          7,
           null,
           null,
           1,
@@ -613,30 +781,17 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
+          3,
+          3,
+          3,
           null,
           null,
           1,
-          1,
+          3,
           null,
-          1,
+          3,
           null,
           null,
-          null,
-          null
-        ]
-      },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/facades/munchies_facade.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
           null,
           null
         ]
@@ -645,22 +800,22 @@
         "lines": [
           1,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
-          2,
+          3,
           null,
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           null,
-          2,
-          2,
+          3,
+          3,
           null,
-          2,
+          3,
           null,
           null,
           null,
@@ -677,27 +832,8 @@
           null,
           null
         ]
-      },
-      "/Users/blainekennedy/mod3/projects/sweater_weather/sweater_weather_api/app/poros/munchies.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1705342757
+    "timestamp": 1705348812
   }
 }
