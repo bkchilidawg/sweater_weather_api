@@ -16,6 +16,7 @@ Rails.application.routes.draw do
       resources :forecast, only: [:show]
     end
   end
+  get '/api/v1/munchies', to: 'munchies#show'
 
 
 end
