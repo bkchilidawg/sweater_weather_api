@@ -42,11 +42,7 @@ mapquest_api:
 ```
 
 
-
-
-Description: This endpoint allows users to plan a road trip by providing the origin and destination cities. It returns information such as travel time and weather at the destination.
-
-
+# API Requests and Responses
 
 Example Request:
 
