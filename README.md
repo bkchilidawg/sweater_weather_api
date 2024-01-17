@@ -13,45 +13,185 @@ This Ruby on Rails API project aims to provide functionality for planning road t
 ## Setup
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/whether_sweater_api.git
+Install dependencies:
 
-2. bundle install
+```
+bundle install
+```
+Set up the database:
 
-
-3. rails db:create
+```
+rails db:create
 rails db:migrate
-
+``````
 Set up your environment variables:
 
-Obtain API keys from [API Providers] for weather data and any other external services.
+Obtain API keys from https://www.weatherapi.com/ for weather data and https://developer.mapquest.com/user/me/apps for external services.
 
 Create a .env file in the project root and add your API keys:
 
-env: 
-  WEATHER_API_KEY=your_weather_api_key
-  OTHER_API_KEY=your_other_api_key
+```
+weather_api:
+    key: your_weather_api_key
+mapquest_api:
+    key: your_weather_api_key
+```
 
-API Endpoints
-/api/v1/endpoint1: Description of endpoint 1
-/api/v1/endpoint2: Description of endpoint 2
-...
-Happy Path
-Provide examples of successful API requests and responses for common scenarios.
 
-Testing
+/api/v1/road_trip: Plan a road trip.
+
+Description: This endpoint allows users to plan a road trip by providing the origin and destination cities. It returns information such as travel time and weather at the destination.
+
+
+
+Example Request:
+
+```
+ POST http://localhost:3000/api/v1/road_trip 
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+-d '{"origin": "Cincinnati, OH", "destination": "Chicago, IL"}'
+```
+
+Example Response:
+```
+{
+  "data": {
+    "id": null,
+    "type": "road_trip",
+    "attributes": {
+      "start_city": "Cincinnati, OH",
+      "end_city": "Chicago, IL",
+      "travel_time": "04:40:45",
+      "weather_at_eta": {
+        "datetime": "2023-04-07 23:00",
+        "max_temp": 44.2,
+        "condition": "Cloudy with a chance of meatballs"
+      }
+    }
+  }
+}
+```
+
+Example Request:
+
+```
+ POST http://localhost:3000/api/v0/users
+-H "Content-Type: application/json" 
+
+-d '{
+  "email": "whatever@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+'
+```
+
+Example Response:
+```
+{
+    "data": {
+        "type": "users",
+        "id": 971,
+        "attributes": {
+            "email": "d@example.com",
+            "api_key": "24c720a2e0086bd9dd9fdc7eb2fec053708b7d4b"
+        }
+    }
+}
+```
+
+Example Request:
+
+```
+ POST http://localhost:3000/api/v0/sessions
+-H "Content-Type: application/json" 
+
+-d '{
+  "email": "whatever@example.com",
+  "password": "password",
+}
+'
+```
+
+Example Response:
+```
+{
+    "data": {
+        "id": "889",
+        "type": "user",
+        "attributes": {
+            "email": "whatever@example.com",
+            "api_key": "a6cfad8218d028b9062ff06458655b3dc0a28b41"
+        }
+    }
+}
+```
+
+Example Request:
+
+```
+ GET http://localhost:3000/api/v0/forecast?location=cincinatti,oh
+-H "Content-Type: application/json" 
+```
+
+Example Response:
+```
+{
+  "data": {
+    "id": null,
+    "type": "forecast",
+    "attributes": {
+      "current_weather": {
+        "last_updated": "2024-01-17 03:00",
+        "temperature": 10.0,
+        "feels_like": -2.7,
+        "humidity": 60,
+        "uvi": 1.0,
+        "visibility": 9.0,
+        "condition": "Clear",
+        "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+      },
+      "daily_weather": [
+        {
+          "date": "2024-01-17",
+          "sunrise": "07:55 AM",
+          "sunset": "05:41 PM",
+          "max_temp": 27.5,
+          "min_temp": 9.5,
+          "condition": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        },
+        // ... (additional daily weather entries)
+      ],
+      "hourly_weather": [
+        {
+          "time": "00:00",
+          "temperature": 11.2,
+          "conditions": "Clear",
+          "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        },
+        // ... (additional hourly weather entries)
+      ]
+    }
+  }
+}
+
+```
+
+# Testing
 Use RSpec for testing.
-Utilize mocking tools such as VCR and Webmock for API testing.
-Contributing
-If you would like to contribute to this project, please follow our [Contribution Guidelines].
+Utilize mocking tools such as VCR for API testing.
+# Contributing
 
-License
-This project is licensed under the [MIT License] - see the [LICENSE.md] file for details.
+Blaine Kennedy 
 
-vbnet
+[![LinkedIn][linkedin-shield]][linkedin-url-bk] 
+[![GitHub][github-shield-bk]][github-url-bk]
 
-
-
-
-
-
+[linkedin-url-bk]: https://www.linkedin.com/in/blaine-kennedy
+[github-shield-bk]: https://img.shields.io/badge/GitHub-bkchilidawg-success?style=for-the-badge&logo=github
+[github-url-bk]: https://github.com/bkchilidawg
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
