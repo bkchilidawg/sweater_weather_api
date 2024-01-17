@@ -13,24 +13,26 @@ This Ruby on Rails API project aims to provide functionality for planning road t
 ## Setup
 1. Clone the repository:
 
-   ```
-   git clone https://github.com/your-username/whether_sweater_api.git
-Install dependencies:
+  ```
+  git clone https://github.com/bkchilidawg/sweater_weather_api
+  ```
+   
+2. Install dependencies:
 
 ```
 bundle install
 ```
-Set up the database:
+3. Set up the database:
 
 ```
 rails db:create
 rails db:migrate
 ``````
-Set up your environment variables:
+4. Set up your environment variables:
 
 Obtain API keys from https://www.weatherapi.com/ for weather data and https://developer.mapquest.com/user/me/apps for external services.
 
-Create a .env file in the project root and add your API keys:
+5. Create a .env file in the project root and add your API keys:
 
 ```
 weather_api:
@@ -40,7 +42,7 @@ mapquest_api:
 ```
 
 
-/api/v1/road_trip: Plan a road trip.
+
 
 Description: This endpoint allows users to plan a road trip by providing the origin and destination cities. It returns information such as travel time and weather at the destination.
 
@@ -54,6 +56,7 @@ Example Request:
 -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
 -d '{"origin": "Cincinnati, OH", "destination": "Chicago, IL"}'
 ```
+Description: This endpoint allows users to plan a road trip by providing the origin and destination cities. It returns information such as travel time and weather at the destination.
 
 Example Response:
 ```
@@ -88,6 +91,7 @@ Example Request:
 }
 '
 ```
+Description: This endpoint allows users to create a new account
 
 Example Response:
 ```
@@ -115,6 +119,7 @@ Example Request:
 }
 '
 ```
+Description: This endpoint allows users to start a new session using the provided API key
 
 Example Response:
 ```
@@ -136,6 +141,7 @@ Example Request:
  GET http://localhost:3000/api/v0/forecast?location=cincinatti,oh
 -H "Content-Type: application/json" 
 ```
+Description: This endpoint allows users to get the forecast 
 
 Example Response:
 ```
