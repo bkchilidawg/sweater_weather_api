@@ -13,9 +13,13 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v0 do
-      resources :forecast, only: [:show]
+      resources :forecast, only: [:index]
+      resources :users, only: [:create]
+      resources :sessions, only: [:create]
     end
   end
+  post "api/v0/road_trip", to: "api/v0/road_trips#show"
+
 
 
 end
